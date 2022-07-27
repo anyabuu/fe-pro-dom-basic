@@ -1,4 +1,4 @@
 import { findElement, paintCards } from './index.js';
 
-paintCards();
-findElement();
+paintCards('li');
+findElement('li', 'likedItem');
